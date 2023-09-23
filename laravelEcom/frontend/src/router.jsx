@@ -8,8 +8,6 @@ import GuestLayout from "./components/GuestLayout";
 import Dashboard from "./views/Dashboard";
 
 const router = createBrowserRouter([
-
-
     {
         path: '/',
         element: <DefaultLayout />,
