@@ -26,9 +26,9 @@ class UpdateUserRequest extends FormRequest
             'email' => 'required|email|unique:users,email,'.$this->id,
             'password' => [
                 'confirmed',
-                Password::min(8)
-                    ->letters()
-                    ->symbols(),
+                // Password::min(8)
+                //     ->letters()
+                //     ->symbols(),
             ]
         ];
     }
